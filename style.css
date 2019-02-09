@@ -1,0 +1,36 @@
+body {
+  background-image: url('https://images.pexels.com/photos/459522/pexels-photo-459522.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260.png');
+}
+
+#toDoListParent {
+  width: 500px;
+  margin-left: calc(50% - 250px);
+  /* width: 70vw; */
+}
+
+.taskItem {
+  background-color: #fff;
+  color: black;
+  height: 30px;
+  width: 100%;
+  border: 1px solid black;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.taskItem:hover {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+h1 {
+  color: #fff;
+  font-weight: bolder;
+}
+
+.task-complete {
+  background-color: black;
+  color: gray;
+}
